@@ -44,3 +44,55 @@ a {
     padding-bottom: 0.3em;
     border-bottom: 1px solid #eaecef;
 }
+
+.main-body ul, .main-body ol {
+    padding-left: 2em;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.main-body p, .main-body blockquote, .main-body ul, .main-body ol, .main-body dl, .main-body table, .main-body pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+.education_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education_ul .mr {
+    margin-right: 5rem;
+    font-weight: bold;
+}
+
+.main-body h3 {
+    font-size: 1.25em;
+}
+
+.sxdbpicture{
+    width: 80vw;
+    height: 20vh;
+}
+
+.sxdbwcaddresspricture{
+    width: 37vw;
+    height: 17vh;
+
+}
+
+.sxdbwcpricture{
+    width: 37vw;
+    height: 30vh;
+    display: block;
+    margin:0 auto
+}
